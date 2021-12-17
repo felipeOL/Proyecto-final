@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+.centrar {
+    margin-top: 10px;
+        text-align: center;}
+.textDecoration {
+    text-decoration: overline;}
+.menu {
+    color: rgb(167, 23, 23);
+    background-color: #150303 ;
+    font-size: 34px;
+    border-style:solid;
+    border-width:thin;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    border-color: rgb(116, 17, 17);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    padding-top: 1px;}    
+ul {
+    overflow: hidden;
+    list-style-type: none;
+    display:inline-block;}
+li {
+    float: left;}
+li a{
+    display: block;
+    visibility: visible;}
+.fuenteab {
+    color: #EABE3F;}
+.rubik {
+    font-family:'Rubik', sans-serif;
+    text-transform: uppercase;}
+.textoInicial {
+    color:#F1D47E;
+    font-family: cursive;
+    display: block;
+    margin-left:80px;
+    margin-right:80px}
+.footer {
+    color:white ;
+    text-decoration: underline;
+    word-spacing: 5px;
+    text-align: right;}
+.backImage{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5d84128b2e0bd06d542fe4c4/1592543978999-RG4G84F9A16HUWGPQT7Q/Blue+Background.jpg?format=2500w");
+    background-size: cover;
+    display: grid;
+}
+.tamaImagen {
+    width: 750px;
+    height: 750px;
+    display:block;
+    margin: auto}
+.imgclases {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+}
+.tamaImagen2{
+    display:flex;
+    height: 300px;
+    width: 300px;}
+.textoclases{
+    color:#F1D47E;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 120px;
+    flex-shrink: 2;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;}
+.tamaImagen3{
+    height: 250px;
+    width: 250px;}
+ .borde{
+    border: 1px solid black;}
+.tamaImagenRaza { 
+    height: 500px;
+    width: 500px;
+    display:block;
+    margin: auto}
+.rotar{
+    transform: translate(40px, 60px);}
+.boton:hover{
+    background-color: cornflowerblue;}
+.escalada {
+    transform: scale(2,1)}
+#logo{
+    display:grid;
+    grid-template-columns: 30px;
+    grid-auto-rows: 30px;
+    align-items: flex-start;
+    margin-left: 20px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;}
+.razas{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: repeat(10, 30px);
+    margin:auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;}
+.imgrazas{
+    margin-left:525px}
+.rojo{
+    color: red;}
+.negro {
+    color: #000000;}
+
+.margenMapa{
+    margin-bottom: 15px;
+    margin-top: 5px;}
+.backgroundMapa{
+    background-color: #012743 ;}
+.h3Mapa{
+    font-size: 30px;
+    color:#F1D47E;
+    text-transform:uppercase;}
+.pMapa{
+    font-family: cursive;
+    color: black;}
+.superSalvacion{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));}
+.cartitas{
+    transition:transform 0.3s;}
+.cartitas:hover{
+    transform: scale(1.1);
+    z-index:3;}
